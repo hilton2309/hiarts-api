@@ -9,8 +9,8 @@ export default class UpdateValidator {
 
   public schema = schema.create({
     ativo: schema.boolean.optional(),
-    category: schema.enum.optional(categories)
-
+    category: schema.enum.optional(categories),
+    unitId: schema.number.optional()
   })
 
 
