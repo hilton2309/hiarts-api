@@ -4,6 +4,7 @@ import './users'
 import './unit'
 import './sector'
 import './copies'
+import './status'
 
 Route.get('/', async () => {
   return { hello: 'world' }
