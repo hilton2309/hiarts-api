@@ -1,1 +1,1 @@
-release: node build/start.js
+release: node build/server.js
